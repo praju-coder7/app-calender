@@ -1,24 +1,26 @@
 {
-  "name": "app-calender",
-  "private": true,
+  "name": "smart-scheduler",
   "version": "1.0.0",
-  "type": "module",
+  "private": true,
+  "homepage": "https:// praju-coder7.github.io/smart-scheduler",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "dayjs": "^1.11.11",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "dayjs": "^1.11.11"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^5.1.0",
-    "autoprefixer": "^10.4.20",
-    "gh-pages": "^6.3.0",
-    "postcss": "^8.4.47",
+    "vite": "^5.4.8",
     "tailwindcss": "^3.4.13",
-    "vite": "^7.2.2"
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20",
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.1.1"
   }
 }
