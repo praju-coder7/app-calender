@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Team Sync",
+    "date": "2025-11-07",
+    "time": "10:00",
+    "duration": 60
+  },
+  {
+    "id": 2,
+    "title": "Code Review",
+    "date": "2025-11-07",
+    "time": "10:30",
+    "duration": 30
+  },
+  {
+    "id": 3,
+    "title": "Sprint Planning",
+    "date": "2025-11-09",
+    "time": "09:00",
+    "duration": 60
+  }
+]
