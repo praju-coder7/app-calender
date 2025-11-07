@@ -2,7 +2,7 @@
   "name": "smart-scheduler",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https:// praju-coder7.github.io/smart-scheduler",
+  "homepage": "https:// praju-coder7.github.io/app-calender",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
